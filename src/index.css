@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "League-Spartan";
+	src: url("./assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
+}
+
+* {
+	font-family: "League-Spartan", serif;
+	font-weight: 700;
+}
+
+button {
+	@apply rounded-lg border-b-4 text-xl sm:text-3xl p-2;
+}
+
+.main-bg-0 {
+	@apply bg-midnight_blue text-white;
+}
+
+.main-bg-1 {
+	@apply bg-light_gray text-[hsl(60,10%,19%)];
+}
+
+.main-bg-2 {
+	@apply bg-very_dark_violet text-[hsl(52,100%,62%)];
+}
+
+/* TOGGLE BACKGROUND */
+/* KEYPAD BACKGROUND */
+.toggle-bg-0 {
+	@apply bg-dark_teal;
+}
+
+.toggle-bg-1 {
+	@apply bg-pale_gray;
+}
+
+.toggle-bg-2 {
+	@apply bg-deep_indigo;
+}
+
+/* TOGGLER BACKGROUND */
+.toggler-bg-0 {
+	@apply bg-[hsl(6,63%,50%)];
+}
+
+.toggler-bg-1 {
+	@apply bg-[hsl(25,98%,40%)];
+}
+
+.toggler-bg-2 {
+	@apply bg-[hsl(176,100%,44%)];
+}
+
+
+/* TOGGLER POSITION */
+.position-0 {
+	@apply translate-x-0;
+}
+
+.position-1 {
+	@apply translate-x-[22px];
+}
+
+.position-2 {
+	@apply translate-x-[45px];
+}
+
+/* SCREEN BACKGROUND */
+.screen-bg-0 {
+	@apply bg-deep_navy;
+}
+
+.screen-bg-1 {
+	@apply bg-off_white;
+}
+
+.screen-bg-2 {
+	@apply bg-deep_indigo;
+}
+
+/* BTN */
+.btn-0 {
+	@apply bg-[hsl(30,25%,89%)] border-b-[hsl(28,16%,65%)] text-[hsl(221,14%,31%)];
+}
+
+.btn-1 {
+	@apply bg-[hsl(45,7%,89%)] border-b-[hsl(35,11%,61%)];
+}
+
+.btn-2 {
+	@apply bg-[hsl(268,47%,21%)] border-b-[hsl(290,70%,36%)];
+}
+
+/* ACTION BTN */
+.action-btn-0 {
+	@apply bg-soft_navy border-b-dusky_azure;
+}
+
+.action-btn-1 {
+	@apply bg-[hsl(185,42%,37%)] border-b-[hsl(185,58%,25%)] text-white;
+}
+
+.action-btn-2 {
+	@apply bg-[hsl(281,89%,26%)] border-b-[hsl(285,91%,52%)] text-white;
+}
+
+/* EQUALS BTN */
+.equals-btn-0 {
+	@apply bg-[hsl(6,63%,50%)] border-b-[hsl(6,70%,34%)];
+}
+
+.equals-btn-1 {
+	@apply bg-[hsl(25,98%,40%)] border-b-[hsl(25,99%,27%)] text-white;
+}
+
+.equals-btn-2 {
+	@apply bg-[hsl(176,100%,44%)] border-b-[hsl(177,92%,70%)] text-[hsl(198,20%,13%)];
+}
